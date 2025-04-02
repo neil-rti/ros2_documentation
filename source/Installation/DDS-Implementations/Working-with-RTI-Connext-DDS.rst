@@ -36,7 +36,7 @@ RTI Connext Pro is available through a variety of channels:
 
         .. code-block:: bash
 
-           sudo apt update && sudo apt install -q -y rti-connext-dds-7.3.0
+           sudo apt update && sudo apt install -q -y rti-connext-dds-7.3.0-ros
 
      .. group-tab:: v6.0.1
 
@@ -50,6 +50,7 @@ RTI Connext Pro is available through a variety of channels:
 **Other Installation Options**
 RTI Connext DDS is a proprietary DDS implementation with a number of advanced features and commercial support options.
 RTI provides both a `non-commercial / research license <https://www.rti.com/free-trial/university-program>`__ for students and researchers and a `time-limited free trial license <https://www.rti.com/free-trial>`__ for commercial users.
+Debian packages of these libraries for amd64 or arm64 architectures are also available from the `RTI apt repository <https://community.rti.com/static/documentation/connext-dds/current/doc/manuals/debian_packages/index.html>`__.
 Detailed instructions for building and tuning the RMW and ROS 2 applications for a variety of platforms, and enabling DDS Security and safety-cert options are available on the `RTI ROS Community <https://community.rti.com/ros>`__ pages.
 
 
